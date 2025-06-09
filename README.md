@@ -49,12 +49,6 @@ To build a beautifully styled, dynamic To-Do List application using HTML, CSS, a
 
 ---
 
-## 📸 Project Preview
-
-> ![Task 2 Thumbnail](ChatGPT Image Jun 9, 2025, 11_49_57 AM.png)
-
----
-
 ## 💡 Learnings & Outcome:
 > "With every click, this project taught me how to structure logic, style gracefully, and build experiences that feel intuitive and modern. From JavaScript validation to CSS animations, every feature was a stepping stone in my journey to becoming a better front-end developer."
 
