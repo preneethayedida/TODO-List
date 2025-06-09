@@ -51,7 +51,7 @@ To build a beautifully styled, dynamic To-Do List application using HTML, CSS, a
 
 ## 📸 Project Preview
 
-> ![Task 2 Thumbnail](thumbnail.png)
+> ![Task 2 Thumbnail](ChatGPT Image Jun 9, 2025, 11_49_57 AM.png)
 
 ---
 
