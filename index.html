@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advanced To-Do List with Validation & Dark Mode</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My To-Do List</h1>
+    <button id="themeToggle" aria-label="Toggle Dark Mode">🌙</button>
+  </header>
+
+  <main>
+    <section class="contact-form-section">
+      <h2>Contact Form</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" required aria-required="true" />
+          <small class="error-message" aria-live="polite"></small>
+        </div>
+        <div class="form-group">
+          <label for="email">Email <span aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" required aria-required="true" />
+          <small class="error-message" aria-live="polite"></small>
+        </div>
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="todo-section">
+      <h2>Tasks</h2>
+      <form id="todoForm" aria-label="Add new task">
+        <input
+          type="text"
+          id="todoInput"
+          placeholder="Enter new task..."
+          aria-label="New task"
+          required
+        />
+        <button type="submit" class="btn-add">Add Task</button>
+      </form>
+
+      <ul id="taskList" aria-live="polite" aria-relevant="additions removals"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Preneetha. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
