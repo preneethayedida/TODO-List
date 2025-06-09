@@ -45,7 +45,7 @@ To build a beautifully styled, dynamic To-Do List application using HTML, CSS, a
 🔗 [Check it Out on Glitch](https://preneetha-todo-list-webproject.glitch.me)
 
 ## 📂 GitHub Repository  
-🔗 [GitHub Repo](https://github.com/your-username/todo-list-task2)
+🔗 [GitHub Repo](https://github.com/preneethayedida/TODO-List.git)
 
 ---
 
